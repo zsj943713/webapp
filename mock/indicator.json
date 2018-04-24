@@ -1,0 +1,681 @@
+[
+    {
+        "name": "open",
+        "value": "open",
+        "caption": "open",
+        "meta": "开盘价",
+        "score": 99
+    },
+    {
+        "name": "close",
+        "value": "close",
+        "caption": "close",
+        "meta": "收盘价",
+        "score": 99
+    },
+    {
+        "name": "high",
+        "value": "high",
+        "caption": "high",
+        "meta": "最高价",
+        "score": 99
+    },
+    {
+        "name": "low",
+        "value": "low",
+        "caption": "low",
+        "meta": "最低价",
+        "score": 99
+    },
+    {
+        "name": "last",
+        "value": "last",
+        "caption": "last",
+        "meta": "昨日收盘价",
+        "score": 99
+    },
+    {
+        "name": "ma5",
+        "value": "ma5",
+        "caption": "ma5",
+        "meta": "5日均价",
+        "score": 99
+    },
+    {
+        "name": "ma10",
+        "value": "ma10",
+        "caption": "ma10",
+        "meta": "10日均价",
+        "score": 99
+    },
+    {
+        "name": "ma20",
+        "value": "ma20",
+        "caption": "ma20",
+        "meta": "20日均价",
+        "score": 99
+    },
+    {
+        "name": "ma30",
+        "value": "ma30",
+        "caption": "ma30",
+        "meta": "30日均价",
+        "score": 99
+    },
+    {
+        "name": "ma60",
+        "value": "ma60",
+        "caption": "ma60",
+        "meta": "60日均价",
+        "score": 99
+    },
+    {
+        "name": "ma120",
+        "value": "ma120",
+        "caption": "ma120",
+        "meta": "120日均价",
+        "score": 99
+    },
+    {
+        "name": "ma250",
+        "value": "ma250",
+        "caption": "ma250",
+        "meta": "250日均价",
+        "score": 99
+    },
+    {
+        "name": "amt",
+        "value": "amt",
+        "caption": "amt",
+        "meta": "成交额",
+        "score": 99
+    },
+    {
+        "name": "vol",
+        "value": "vol",
+        "caption": "vol",
+        "meta": "当日成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol5",
+        "value": "maVol5",
+        "caption": "maVol5",
+        "meta": "5日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol10",
+        "value": "maVol10",
+        "caption": "maVol10",
+        "meta": "10日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol20",
+        "value": "maVol20",
+        "caption": "maVol20",
+        "meta": "20日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol30",
+        "value": "maVol30",
+        "caption": "maVol30",
+        "meta": "30日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol60",
+        "value": "maVol60",
+        "caption": "maVol60",
+        "meta": "60日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol120",
+        "value": "maVol120",
+        "caption": "maVol120",
+        "meta": "120日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "maVol250",
+        "value": "maVol250",
+        "caption": "maVol250",
+        "meta": "250日平均成交量",
+        "score": 99
+    },
+    {
+        "name": "rise",
+        "value": "rise",
+        "caption": "rise",
+        "meta": "股价涨幅",
+        "score": 99
+    },
+    {
+        "name": "amplitude",
+        "value": "amplitude",
+        "caption": "amplitude",
+        "meta": "振幅",
+        "score": 99
+    },
+    {
+        "name": "did",
+        "value": "did",
+        "caption": "did",
+        "meta": "交易天数",
+        "score": 99
+    },
+    {
+        "name": "dif",
+        "value": "dif",
+        "caption": "dif",
+        "meta": "MACD_DIF",
+        "score": 99
+    },
+    {
+        "name": "dea",
+        "value": "dea",
+        "caption": "dea",
+        "meta": "MACD_DEA",
+        "score": 99
+    },
+    {
+        "name": "macd",
+        "value": "macd",
+        "caption": "macd",
+        "meta": "MACD",
+        "score": 99
+    },
+    {
+        "name": "k",
+        "value": "k",
+        "caption": "k",
+        "meta": "KDJ_K",
+        "score": 99
+    },
+    {
+        "name": "d",
+        "value": "d",
+        "caption": "d",
+        "meta": "KDJ_D",
+        "score": 99
+    },
+    {
+        "name": "j",
+        "value": "j",
+        "caption": "j",
+        "meta": "KDJ_J",
+        "score": 99
+    },
+    {
+        "name": "bollUp",
+        "value": "bollUp",
+        "caption": "bollUp",
+        "meta": "布林上线",
+        "score": 99
+    },
+    {
+        "name": "bollDn",
+        "value": "bollDn",
+        "caption": "bollDn",
+        "meta": "布林下线",
+        "score": 99
+    },
+    {
+        "name": "bollMid",
+        "value": "bollMid",
+        "caption": "bollMid",
+        "meta": "布林中线",
+        "score": 99
+    },
+    {
+        "name": "cci14",
+        "value": "cci14",
+        "caption": "cci14",
+        "meta": "CCI",
+        "score": 99
+    },
+    {
+        "name": "wr10",
+        "value": "wr10",
+        "caption": "wr10",
+        "meta": "WR10",
+        "score": 99
+    },
+    {
+        "name": "wr6",
+        "value": "wr6",
+        "caption": "wr6",
+        "meta": "WR6",
+        "score": 99
+    },
+    {
+        "name": "bias6",
+        "value": "bias6",
+        "caption": "bias6",
+        "meta": "BIAS6",
+        "score": 99
+    },
+    {
+        "name": "bias12",
+        "value": "bias12",
+        "caption": "bias12",
+        "meta": "BIAS12",
+        "score": 99
+    },
+    {
+        "name": "bias24",
+        "value": "bias24",
+        "caption": "bias24",
+        "meta": "BIAS24",
+        "score": 99
+    },
+    {
+        "name": "rsi12",
+        "value": "rsi12",
+        "caption": "rsi12",
+        "meta": "RSI12",
+        "score": 99
+    },
+    {
+        "name": "rsi6",
+        "value": "rsi6",
+        "caption": "rsi6",
+        "meta": "RSI6",
+        "score": 99
+    },
+    {
+        "name": "rsi24",
+        "value": "rsi24",
+        "caption": "rsi24",
+        "meta": "RSI24",
+        "score": 99
+    },
+    {
+        "name": "mktCap",
+        "value": "mktCap",
+        "caption": "mktCap",
+        "meta": "总市值",
+        "score": 99
+    },
+    {
+        "name": "cirMktCap",
+        "value": "cirMktCap",
+        "caption": "cirMktCap",
+        "meta": "流通市值",
+        "score": 99
+    },
+    {
+        "name": "pb",
+        "value": "pb",
+        "caption": "pb",
+        "meta": "市净率",
+        "score": 99
+    },
+    {
+        "name": "pcf",
+        "value": "pcf",
+        "caption": "pcf",
+        "meta": "市现率",
+        "score": 99
+    },
+    {
+        "name": "ps",
+        "value": "ps",
+        "caption": "ps",
+        "meta": "市销率",
+        "score": 99
+    },
+    {
+        "name": "peTtm",
+        "value": "peTtm",
+        "caption": "peTtm",
+        "meta": "市盈率TTM",
+        "score": 99
+    },
+    {
+        "name": "peLyr",
+        "value": "peLyr",
+        "caption": "peLyr",
+        "meta": "静态市盈率",
+        "score": 99
+    },
+    {
+        "name": "peg",
+        "value": "peg",
+        "caption": "peg",
+        "meta": "PEG",
+        "score": 99
+    },
+    {
+        "name": "oper_inc_yoy",
+        "value": "oper_inc_yoy",
+        "caption": "oper_inc_yoy",
+        "meta": "营业收入同比增长",
+        "score": 99
+    },
+    {
+        "name": "net_prof_pco_yoy",
+        "value": "net_prof_pco_yoy",
+        "caption": "net_prof_pco_yoy",
+        "meta": "净利润同比增长",
+        "score": 99
+    },
+    {
+        "name": "eps_bas_yoy",
+        "value": "eps_bas_yoy",
+        "caption": "eps_bas_yoy",
+        "meta": "基本每股收益同比增长",
+        "score": 99
+    },    
+    {
+        "name": "eps_dil_yoy",
+        "value": "eps_dil_yoy",
+        "caption": "eps_dil_yoy",
+        "meta": "稀释每股收益同比增长",
+        "score": 99
+    },
+    {
+        "name": "ttl_oper_inc_yoy",
+        "value": "ttl_oper_inc_yoy",
+        "caption": "ttl_oper_inc_yoy",
+        "meta": "营业总收入同比增长",
+        "score": 99
+    },
+    {
+        "name": "oper_prof_yoy",
+        "value": "oper_prof_yoy",
+        "caption": "oper_prof_yoy",
+        "meta": "营业利润同比增长",
+        "score": 99
+    },
+    {
+        "name": "ttl_prof_yoy",
+        "value": "ttl_prof_yoy",
+        "caption": "ttl_prof_yoy",
+        "meta": "利润总额同比增长",
+        "score": 99
+    },
+    {
+        "name": "eqy_mult",
+        "value": "eqy_mult",
+        "caption": "eqy_mult",
+        "meta": "权益乘数",
+        "score": 99
+    },
+    {
+        "name": "ttl_ast_gr",
+        "value": "ttl_ast_gr",
+        "caption": "ttl_ast_gr",
+        "meta": "总资产相对年初增长",
+        "score": 99
+    },
+    {
+        "name": "eps",
+        "value": "eps",
+        "caption": "eps",
+        "meta": "摊薄每股收益-期末股本",
+        "score": 99
+    },
+    {
+        "name": "bvps",
+        "value": "bvps",
+        "caption": "bvps",
+        "meta": "每股净资产",
+        "score": 99
+    },
+    {
+        "name": "oper_inc_ps",
+        "value": "oper_inc_ps",
+        "caption": "oper_inc_ps",
+        "meta": "每股营业收入",
+        "score": 99
+    },
+    {
+        "name": "ttl_oper_inc_ps",
+        "value": "ttl_oper_inc_ps",
+        "caption": "ttl_oper_inc_ps",
+        "meta": "每股营业总收入",
+        "score": 99
+    },
+    {
+        "name": "cptl_rsv_ps",
+        "value": "cptl_rsv_ps",
+        "caption": "cptl_rsv_ps",
+        "meta": "每股资本公积",
+        "score": 99
+    },
+    {
+        "name": "sur_rsv_ps",
+        "value": "sur_rsv_ps",
+        "caption": "sur_rsv_ps",
+        "meta": "每股盈余公积",
+        "score": 99
+    },
+    {
+        "name": "ret_prof_ps",
+        "value": "ret_prof_ps",
+        "caption": "ret_prof_ps",
+        "meta": "每股未分配利润",
+        "score": 99
+    },
+    {
+        "name": "net_cf_ps",
+        "value": "net_cf_ps",
+        "caption": "net_cf_ps",
+        "meta": "每股现金流量净额",
+        "score": 99
+    },
+    {
+        "name": "net_cf_oper_ps",
+        "value": "net_cf_oper_ps",
+        "caption": "net_cf_oper_ps",
+        "meta": "每股经营活动产生的现金流量净额",
+        "score": 99
+    },
+    {
+        "name": "roe_avg",
+        "value": "roe_avg",
+        "caption": "roe_avg",
+        "meta": "净资产收益率_平均",
+        "score": 99
+    },
+    {
+        "name": "roe_ann",
+        "value": "roe_ann",
+        "caption": "roe_ann",
+        "meta": "年化净资产收益率",
+        "score": 99
+    },
+    {
+        "name": "roa_ebit",
+        "value": "roa_ebit",
+        "caption": "roa_ebit",
+        "meta": "总资产报酬率",
+        "score": 99
+    },
+    {
+        "name": "net_prof_excl_np",
+        "value": "net_prof_excl_np",
+        "caption": "net_prof_excl_np",
+        "meta": "扣除非经常损益后的净利润/净利润",
+        "score": 99
+    },
+    {
+        "name": "oper_prof_toi",
+        "value": "oper_prof_toi",
+        "caption": "oper_prof_toi",
+        "meta": "营业利润/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "net_prof_toi",
+        "value": "net_prof_toi",
+        "caption": "net_prof_toi",
+        "meta": "净利润/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "sale_exp_toi",
+        "value": "sale_exp_toi",
+        "caption": "sale_exp_toi",
+        "meta": "销售费用/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "adm_exp_toi",
+        "value": "adm_exp_toi",
+        "caption": "adm_exp_toi",
+        "meta": "管理费用/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "fin_exp_toi",
+        "value": "fin_exp_toi",
+        "caption": "fin_exp_toi",
+        "meta": "财务费用/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "ast_loss_toi",
+        "value": "ast_loss_toi",
+        "caption": "ast_loss_toi",
+        "meta": "资产减值损失/营业总收入",
+        "score": 99
+    },
+    {
+        "name": "cur_rat",
+        "value": "cur_rat",
+        "caption": "cur_rat",
+        "meta": "流动比率",
+        "score": 99
+    },
+    {
+        "name": "qk_rat",
+        "value": "qk_rat",
+        "caption": "qk_rat",
+        "meta": "速动比率",
+        "score": 99
+    },
+    {
+        "name": "liab_eqy_rat",
+        "value": "liab_eqy_rat",
+        "caption": "liab_eqy_rat",
+        "meta": "产权比率",
+        "score": 99
+    },
+    {
+        "name": "ast_liab_rat",
+        "value": "ast_liab_rat",
+        "caption": "ast_liab_rat",
+        "meta": "资产负债率",
+        "score": 99
+    },
+    {
+        "name": "oper_cy_ds",
+        "value": "oper_cy_ds",
+        "caption": "oper_cy_ds",
+        "meta": "营业周期",
+        "score": 99
+    },
+    {
+        "name": "invt_ds",
+        "value": "invt_ds",
+        "caption": "invt_ds",
+        "meta": "存货周转天数",
+        "score": 99
+    },
+    {
+        "name": "acct_rcv_ds",
+        "value": "acct_rcv_ds",
+        "caption": "acct_rcv_ds",
+        "meta": "应收账款周转天数",
+        "score": 99
+    },
+    {
+        "name": "invt_tnv",
+        "value": "invt_tnv",
+        "caption": "invt_tnv",
+        "meta": "存货周转率",
+        "score": 99
+    },
+    {
+        "name": "acct_rcv_tnv",
+        "value": "acct_rcv_tnv",
+        "caption": "acct_rcv_tnv",
+        "meta": "应收账款周转率",
+        "score": 99
+    },
+    {
+        "name": "cur_ast_tnv",
+        "value": "cur_ast_tnv",
+        "caption": "cur_ast_tnv",
+        "meta": "流动资产周转率",
+        "score": 99
+    },
+    {
+        "name": "fix_ast_tnv",
+        "value": "fix_ast_tnv",
+        "caption": "fix_ast_tnv",
+        "meta": "固定资产周转率",
+        "score": 99
+    },
+    {
+        "name": "ttl_ast_tnv",
+        "value": "ttl_ast_tnv",
+        "caption": "ttl_ast_tnv",
+        "meta": "总资产周转率",
+        "score": 99
+    },
+    {
+        "name": "ttl_oper_inc",
+        "value": "ttl_oper_inc",
+        "caption": "ttl_oper_inc",
+        "meta": "营业总收入",
+        "score": 99
+    },
+    {
+        "name": "ttl_oper_cost",
+        "value": "ttl_oper_cost",
+        "caption": "ttl_oper_cost",
+        "meta": "营业总成本",
+        "score": 99
+    },
+    {
+        "name": "oper_inc",
+        "value": "oper_inc",
+        "caption": "oper_inc",
+        "meta": "营业收入",
+        "score": 99
+    },
+    {
+        "name": "ttl_prof",
+        "value": "ttl_prof",
+        "caption": "ttl_prof",
+        "meta": "利润总额",
+        "score": 99
+    },
+    {
+        "name": "net_prof",
+        "value": "net_prof",
+        "caption": "net_prof",
+        "meta": "净利润",
+        "score": 99
+    },
+    {
+        "name": "capital_num",
+        "value": "capital_num",
+        "caption": "capital_num",
+        "meta": "总股本",
+        "score": 99
+    },
+    {
+        "name": "circulation_num",
+        "value": "circulation_num",
+        "caption": "circulation_num",
+        "meta": "流通股本",
+        "score": 99
+    }
+]

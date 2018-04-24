@@ -1,0 +1,44 @@
+{
+  "selfStock": [
+    {
+      "name": "平安银行",
+      "code": "000001",
+      "price": "9.99",
+      "rise":1.1
+    },
+    {
+      "name": "农业银行",
+      "code": "000002",
+      "price": "8.88",
+      "rise":2.2
+    },
+    {
+      "name": "建设银行",
+      "code": "000003",
+      "price": "7.77",
+      "rise":3.3
+    },
+    {
+      "name": "交通银行",
+      "code": "000004",
+      "price": "6.66",
+      "rise":4.4
+    },
+    {
+      "name": "工商银行",
+      "code": "5",
+      "price": "2.22",
+      "rise":5.5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

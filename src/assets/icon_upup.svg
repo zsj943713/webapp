@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="20" viewBox="0 0 14 20">
+  <defs>
+    <polygon id="icon_upup-a" points=".001 .02 .001 20 13.999 20 13.999 .02 .001 .02"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(-180 7 10)">
+    <mask id="icon_upup-b" fill="#fff">
+      <use xlink:href="#icon_upup-a"/>
+    </mask>
+    <polygon fill="#2489E8" points="13.999 12.639 12.281 10.701 8.101 14.686 8.101 .02 5.749 .02 5.749 14.834 1.663 10.201 0 12.086 6.926 20.02" mask="url(#icon_upup-b)"/>
+  </g>
+</svg>
